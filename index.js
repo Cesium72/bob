@@ -1,6 +1,6 @@
 let box = document.getElementById("thebox");
 let area = document.getElementById("area");
-var converse = ["Yes", "No", "Panda", "Good days suck. Who likes having good days? Do you know <i>anyone</i> who likes having good days?", "Yay! It warms my heart to hear that someone is having a bad day! I love them too!", "Did I ****ing ask???",["Yes, everyone","No one does","Why don't you?","I don't know anyone like that! Who the **** likes good days?","Exactly! Then why did you ****ing say you were having a good day?","Mind your own ****ing beeswax!"],[],null];
+var converse = ["Yes", "No", "Panda", "Good days suck. Who likes having good days? Do you know <i>anyone</i> who likes having good days?", "Yay! It warms my heart to hear that someone is having a bad day! I love them! Don't you too?", "Did I ****ing ask???",["Yes, everyone","No one does","Why don't you?","I don't know anyone like that! Who the **** likes good days?","Exactly! Then why did you ****ing say you were having a good day?","Mind your own ****ing beeswax!"],["IDK","No","Panda","If you don't know, then why did you start this ****ing conversation in the first place?!","No?! Who doesn't like a bad day?!","I didn't ****ing ask what your favorite animal was!"],null];
 function input(thing) {
     box.innerHTML += `<br clear="both">
     <div class="item right">
