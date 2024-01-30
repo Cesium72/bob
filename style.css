@@ -36,6 +36,14 @@ body {
     margin: 2%;
     height:80%;
     border-radius: 8px;
+    cursor:pointer;
+    transition: all linear 0.5s;
+}
+
+.typing-area button:hover {
+    background-color: white;
+    color:#007bff;
+    border:1px solid #007bff;
 }
 
 .wrapper .box {
